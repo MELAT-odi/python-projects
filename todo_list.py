@@ -22,11 +22,11 @@ def task_manager():
             tasks.append(task)
         elif (choose == 2):
             if tasks:
-                print("==Todo LIst==")
+                print("\n==TO DO LIST==")
                 for i in range(len(tasks)):
                     print(f"{i+1}. {tasks[i]}")
             else:
-                print("The list empty")
+                print("The list is empty")
         elif (choose == 3):
             if tasks:
                 print("which task do u want to remove from the list")
@@ -40,9 +40,12 @@ def task_manager():
                 # if tasks[j]:
                 if j >= 1 and j <= len(tasks):
                     removed_task= tasks.pop(j-1)
-                    print(f"Task = {removed_task} is removed")
+                    print(f"Removing task: {removed_task}...")
+                    print("Task removed successfully ✔")
                 else:
-                    print("not exist")
+                    print("Invalid task number")
+            else:
+                print("No tasks to delete")
         elif (choose == 4):
             break
         else:
