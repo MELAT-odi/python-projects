@@ -1,37 +1,36 @@
-# Task Manager CLI
+# Python Practice Projects
 
-A simple command-line Task Manager built with Python. This project was created to practice Python fundamentals such as lists, loops, functions, and error handling.
+This repository contains beginner Python projects created while learning Python programming.
 
-## Features
 
-- Add new tasks
-- View all tasks
-- Delete tasks
-- Validate user input
-- Menu-driven command-line interface
+## Contents
 
-## What I Learned
+This repository includes:
 
-While building this project, I practiced:
+- Task Manager CLI project
+- Number Guessing Game project
 
+
+## Purpose
+
+This repository was used for practicing Python fundamentals such as:
+
+- Variables and data types
 - Functions
-- Lists
-- Loops (`while` and `for`)
+- Loops (`while`, `for`)
 - Conditional statements (`if`, `elif`, `else`)
+- Lists
+- User input handling
 - Exception handling (`try` / `except`)
-- User input validation
 - Basic Git and GitHub workflow
 
-## Future Improvements
+## Note
 
-- Edit existing tasks
-- Mark tasks as completed
-- Save tasks to a file
-- Search for tasks
-- Improve the user interface
+This repository is no longer actively maintained.  
+Each project has been moved to its own separate repository for better organization.
+
 
 ## Author
 
-**Melat Endalamaw**
-
+**Melat Endalamaw**  
 GitHub: https://github.com/MELAT-odi
